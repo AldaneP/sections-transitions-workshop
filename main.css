@@ -1,0 +1,59 @@
+.section-1 {
+  height: 800px;
+  background-color: gray;
+  font-size: 10px;
+  font-style: italic;
+  width: 100%;
+}
+
+p {
+  margin-left: 30%;
+
+}
+
+.section-2 {
+  height: 800px;
+  width: 100%;
+  background-color: #fd79a8;
+
+}
+
+.img-2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  opacity: 0;
+}
+
+
+.section-3 {
+  height: 800px;
+  width: 100%;
+  background-color: gray;
+  font-size: 10px;
+  font-style: italic;
+}
+
+.section-4 {
+  background-color: red;
+  height: 800px;
+  width: 100%;
+  font-size: 30px;
+  text-align: center;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+.show {
+  animation-name: fadeIn;
+  animation-duration: 600ms;
+}
